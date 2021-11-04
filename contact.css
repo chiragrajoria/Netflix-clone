@@ -60,7 +60,7 @@ label {
 .container {
     max-width: 1320px;
     margin: 0 auto;
-    padding: 10%;
+    padding: 50px 100px 50px 100px;
     background: rgba(0, 0, 0, 0.75);
 }
 
