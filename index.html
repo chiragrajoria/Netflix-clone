@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Netflix</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -21,7 +21,8 @@
     <header>
         <nav class="navbar">
             <div class="navbar__brand">
-                <img src="https://www.freepnglogos.com/uploads/netflix-logo-0.png" alt="Netflix" class="brand__logo">
+                <!-- https://www.freepnglogos.com/uploads/netflix-logo-0.png -->
+                <img src="/images/netflix-logo-0.png" alt="Netflix" class="brand__logo">
             </div>
             <div class="navbar__nav__items">
                 <div class="nav__item">
@@ -34,7 +35,9 @@
                     </div>
                 </div>
                 <div class="nav__item">
-                    <button class="signin__button"> Sign in</button>
+                    <a href="signin.html">
+                        <button class="signin__button"> Sign in</button>
+                    </a>
                 </div>
             </div>
         </nav>
@@ -77,8 +80,9 @@
                             class="feature__image">
                         <div class="feature__bg__video__container">
                             <video autoplay loop muted class="feature__background">
+                                <!-- https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v -->
                                 <source
-                                    src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"
+                                    src="/images/video-tv-in-0819.m4v"
                                     type="video/mp4">
                             </video>
                         </div>
@@ -127,8 +131,9 @@
                             alt="" class="feature__image feature__3__image">
                         <div class="feature__bg__video__container feature__3__background">
                             <video autoplay loop muted class="feature__background feature__3__background__video ">
+                                <!-- https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v -->
                                 <source
-                                    src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v"
+                                    src="/images/video-devices-in.m4v"
                                     type="video/mp4">
                             </video>
                         </div>
@@ -267,7 +272,7 @@
             <div class="column__4">
                 <p>Media Centre</p>
                 <p>Terms of Use</p>
-                <p>Contact Us</p>
+                <a href="contact.html" style="text-decoration: none; color: #737373;"><p>Contact Us</p></a>
 
             </div>
         </div>
